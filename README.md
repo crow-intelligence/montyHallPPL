@@ -52,3 +52,6 @@ The most sophisticated implementation uses probabilistic programming to model ho
 1. **Host Awareness**: How much the player considers the host's knowledge
 2. **Switch Bias**: The player's baseline tendency to switch doors
 3. **Rationality**: How consistently the player follows their strategy
+
+## Find it on our blog
+Read more [on our blog](https://crowintelligence.org/2025/03/06/why-probabilistic-programming-a-journey-through-the-monty-hall-problem/)
