@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "probprogMonty"
+version = "0.1.0"
+description = ""
+authors = ["Zoltan Varju <zoltan.varju@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.5.1"
+altair = "^5.5.0"
+numpy = "^2.2.0"
+pandas = "^2.2.3"
+pyro-ppl = "^1.9.1"
+vegafusion = "^2.0.1"
+vl-convert-python = "^1.7.0"
+matplotlib = "^3.10.0"
+black = "^24.10.0"
+isort = "^5.13.2"
+notebook = "^7.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["d"], version = "^24.10.0"}
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
